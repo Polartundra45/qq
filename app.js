@@ -8,7 +8,7 @@ app.set('views', path.join(__dirname, '/views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-	res.send('its still working i am amazing bro yo');
+	res.render('home');
 });
 
 app.get('/about', (req,res) => {
