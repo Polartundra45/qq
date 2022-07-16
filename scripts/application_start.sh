@@ -16,4 +16,4 @@ npm install
 
 npm install -g pm2
 
-pm2 start app.js
+pm2 restart all
