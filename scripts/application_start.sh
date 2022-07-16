@@ -13,3 +13,5 @@ export NVM_DIR="$HOME/.nvm"
 #installing dependencies and starting app
 
 npm install
+
+npm install -g pm2
