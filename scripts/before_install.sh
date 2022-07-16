@@ -5,10 +5,12 @@ nvm install --lts
 
 #checking is working directory exists if not creates working directory
 
+
+
 DIR="/home/ec2-user/personal-node-app"
 if [ -d "$DIR" ]; then
-	echo "${DIR} exists"
-Else
-	echo "Creating ${DIR} directory"
-	mkdir ${DIR}
+  echo "${DIR} exists"
+else
+  echo "Creating ${DIR} directory"
+  mkdir ${DIR}
 fi
