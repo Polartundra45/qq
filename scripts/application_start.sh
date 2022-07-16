@@ -14,6 +14,6 @@ export NVM_DIR="$HOME/.nvm"
 
 npm install
 
-npm install -g pm2
+sudo npm i -g pm2
 
 pm2 restart all
