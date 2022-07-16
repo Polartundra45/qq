@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: url('https://bocaindesigns.com/wp-content/uploads/2018/10/website-hosting-server-1.jpg');
+ 	background-position: center;
+	background-size: cover;
 	color: white;
 }
 
