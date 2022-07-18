@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.about-title {
+		margin-top: 3em;
+		text-align: center;
+		font-family: Andale Mono, monospace;
+		font-size: 3em;
+		margin-bottom: 1em;
+	}
+
+	.about-text {
+		padding: 1.5em;
+	}
+}
