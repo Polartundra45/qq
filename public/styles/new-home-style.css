@@ -34,8 +34,13 @@
 		padding: 1em;
 	}
 
-	.show-case h3 {
+	.show-case h1 {
 		font-family: Andale Mono, monospace;
+		font-size: 3em;
+	}
+
+	.show-case p {
+		font-size: 2em;
 	}
 
 	.show-case button {
