@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.header-container {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: lightblue;
+	}
+
+	.logo {
+		margin: 0;
+		font-size: 1.5em;
+		padding-left: 10px;
+	}
+
+	.login {
+		text-decoration: none;
+		color: black;
+		padding-right: 10px;
+	}
+
+	.show-case {
+		margin-top: 3em;
+		padding: 1em;
+	}
+
+	.show-case h3 {
+		font-family: Andale Mono, monospace;
+	}
+
+	.show-case button {
+		padding: 1em 2em;
+		border: none;
+		border-radius: 10px;
+		background-color: grey;
+		color: white;
+	}
+
+	.show-case button:hover {
+		cursor: pointer;
+		background-color: black;
+		color: white;
+	}
+}
