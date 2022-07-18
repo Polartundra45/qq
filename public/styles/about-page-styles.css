@@ -10,9 +10,14 @@
 		font-family: Andale Mono, monospace;
 		font-size: 3em;
 		margin-bottom: 1em;
+		padding: 1em;
 	}
 
 	.about-text {
 		padding: 1.5em;
+	}
+
+	.about-text p {
+		font-size: 1.5em;
 	}
 }
