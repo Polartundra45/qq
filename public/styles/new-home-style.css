@@ -5,30 +5,6 @@
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
-	.header-container {
-		position: fixed;
-		top: 0;
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		background-color: lightblue;
-	}
-
-	.logo {
-		margin: 0;
-		font-size: 1.5em;
-		padding-left: 10px;
-	}
-
-	.login {
-		text-decoration: none;
-		color: black;
-		padding-right: 10px;
-	}
-
 	.show-case {
 		margin-top: 5em;
 		padding: 1em;
@@ -85,29 +61,5 @@
 		margin: 0 auto; 
 		margin-top: 2em;
 	}
-
-	footer {
-		margin-top: 5em;
-		padding-top: 1em;
-		background-color: lightblue;
-	}
-
-	.footer-nav ul {
-		list-style-type: none;
-		padding: 0;
-		text-align: center;
-		line-height: 2em;
-	}
-
-	.footer-nav a {
-		color: black;
-		text-decoration: none;
-	}
-
-	.copyright {
-		margin-top: 3em;
-		margin-bottom: 0px;
-		padding-bottom: 1em;
-		text-align: center;
-	}
+ 
 }

@@ -1,0 +1,25 @@
+<%- include('./partials/head.ejs') %>
+<title>Sign Up</title>
+<link rel="stylesheet" href="/styles/sign-up-styles.css">
+<body>
+	<%- include('./partials/logo.ejs') %>
+
+	<h1 class="title">Sign Up</h1>
+
+	 
+	<div class="form"> 
+		<label for="firstName">First Name:</label>
+		<input type="text" id="firstName" name="firstName" placeholder="John"> 
+
+		<label for="lastName">Last Name:</label>
+		<input type="text" id="lastName" name="lastName" placeholder="Doe">
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" placeholder="JonhDoe@gmail.com">
+
+		<button>Submit</button>
+	</div>
+ 
+	<%- include('./partials/footer.ejs') %>
+</body>
+</html>

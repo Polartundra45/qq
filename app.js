@@ -11,9 +11,9 @@ app.get('/', (req, res) => {
 	res.render('home');
 });
 
-app.get('/about', (req,res) => {
-	res.send('this is the about page')
-})
+app.get('/sign_up', (req,res) => {
+	res.render('sign-up-page');
+});
 
 app.listen(port, () => {
 	console.log(`listening of port ${port}`);
