@@ -85,4 +85,29 @@
 		margin: 0 auto; 
 		margin-top: 2em;
 	}
+
+	footer {
+		margin-top: 5em;
+		padding-top: 1em;
+		background-color: lightblue;
+	}
+
+	.footer-nav ul {
+		list-style-type: none;
+		padding: 0;
+		text-align: center;
+		line-height: 2em;
+	}
+
+	.footer-nav a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.copyright {
+		margin-top: 3em;
+		margin-bottom: 0px;
+		padding-bottom: 1em;
+		text-align: center;
+	}
 }
