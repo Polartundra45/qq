@@ -64,7 +64,8 @@
 		height: 300px;
 		border-radius: 50%;
 		margin: 0 auto; 
-		margin-top: 2em;
+		margin-top: 4em;
+		margin-bottom: 4em;
 	}
  
 }
@@ -135,6 +136,7 @@
 		height: 300px;
 		border-radius: 50%;
 		margin: 0 auto; 
-		margin-top: 2em;
+		margin-top: 4em;
+		margin-bottom: 4em;
 	}
 }
