@@ -30,6 +30,11 @@
 		margin-bottom: 2em;
 	}
 
+	.show-case button a {
+		text-decoration: none;
+		color: white;
+	}
+
 	.show-case button:hover {
 		cursor: pointer;
 		background-color: black;
