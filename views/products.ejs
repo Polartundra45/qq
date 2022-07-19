@@ -1,13 +1,19 @@
 <%- include('./partials/head.ejs') %>
 <title>Products</title>
-<link rel="stylesheet" href="/styles/.css">
+<link rel="stylesheet" href="/styles/product-styles.css">
 <body>
 	<%- include('./partials/logo.ejs') %>
- 
-	 <h1>Products</h1>
 
- 
-	
-	<%- include('./partials/footer.ejs') %>
+	<div class="container">
+		<div class="product-container">
+			<h3>T-1000</h3>
+			<img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/015a4e67-2845-48e0-81bd-a9e8032d8b37.__CR0,0,970,600_PT0_SX970_V1___.png">
+			<p class="description">The T-1000 is a fictional character in the Terminator franchise. A shapeshifting android assassin, the T-1000 is the main antagonist of Terminator 2: Judgment Day</p>
+				<p class="price">Price: $120.00</p>
+				<button class="buy-button">buy</button>
+		</div>
+	 </div>
+
+ 	<%- include('./partials/footer.ejs') %>
 </body>
 </html>
