@@ -85,9 +85,12 @@
 	.show-case h1 {
 		font-family: Andale Mono, monospace;
 		font-size: 3em;
+		padding-left: 50px;
 	}
 
 	.show-case p {
+		padding-left: 50px;
+		padding-right: 50px;
 		font-size: 2em;
 		margin-bottom: 2em;
 	}
@@ -100,6 +103,7 @@
 		color: white;
 		font-size: 1.5em;
 		margin-bottom: 2em;
+		margin-left: 1.5em;
 	}
 
 	.show-case button a {
@@ -126,15 +130,22 @@
 		margin-bottom: 2em;
 	}
 
+	.why-container {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+
 	.why p {
 		font-size: 1.5em;
+		width: 50%;
 	}
 
 	.why img {
 		display: block;
 		width: 300px;
 		height: 300px;
-		border-radius: 50%;
+		border-radius: 30%;
 		margin: 0 auto; 
 		margin-top: 4em;
 		margin-bottom: 4em;
