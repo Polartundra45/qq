@@ -30,3 +30,36 @@
 		text-align: center;
 	}
 }
+
+@media only screen and (min-width: 599px) and (max-width: 850px) {
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+ 
+	footer {
+		margin-top: 5em;
+		padding-top: 1em;
+		background-color: lightblue;
+	}
+
+	.footer-nav ul {
+		list-style-type: none;
+		padding: 0;
+		text-align: center;
+		line-height: 2em;
+	}
+
+	.footer-nav a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.copyright {
+		margin-top: 3em;
+		margin-bottom: 0px;
+		padding-bottom: 1em;
+		text-align: center;
+	}
+}
